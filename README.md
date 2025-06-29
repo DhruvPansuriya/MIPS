@@ -38,7 +38,6 @@ g++ -o main instruction_decoder.cpp
 ```
 You can create program in MIPS assemble, some [samples](Parser/Programs/) are also provided.
 The supported instructions are:   
-
 > lw,sw,j,jr,jal,beq,add,sub
 
 You need to copy the ouput files generated after compiling your program to [memdata](./memdata.dat) and [meminstr](./meminstr.dat)
